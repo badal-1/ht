@@ -1,0 +1,63 @@
+#r {
+    display: inline;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    
+}
+body{
+background-color: black;
+color:red;
+}
+body:hover{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px blue;}
+    to {box-shadow: 1px 1px 38px red;}
+    }
+#show_sketch:hover{
+    color: yellow;
+    background-color: red;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px yellow;}
+    to {box-shadow: 1px 1px 38px blue;}
+    }
+    #f{
+    color:blue;
+    }
+    #f:hover{
+        color: yellow;
+        animation-name:example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        }
+    @keyframes example{
+        from{box-shadow: 1px 1px 38px red;}
+        to {box-shadow: 1px 1px 38px orange;}
+        }
+        .b:hover{
+            color: yellow;
+            background-color: red;
+            animation-name:example;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;    
+        }
+        @keyframes example{
+            from{box-shadow: 1px 1px 38px yellow;}
+            to {box-shadow: 1px 1px 38px blue;}
+            }
+            #score{
+            text-align: left;
+            }
+            #timer{
+            text-align: right;
+            }
